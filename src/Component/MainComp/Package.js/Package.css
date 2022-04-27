@@ -1,0 +1,23 @@
+.package_component_expand{
+  width: calc(100vw - 20vw);
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px; */
+  font-family: "Montserrat", sans-serif;
+}
+.package_component_shrink{
+  width: calc(100vw - 4.7vw);
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
+}
